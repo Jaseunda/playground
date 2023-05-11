@@ -1,0 +1,71 @@
+{
+    "width": 800,
+    "height": 600,
+    "x": 50,
+    "y": 50,
+    "children": [
+      {
+        "type": "FRAME",
+        "name": "Sample",
+        "width": 100,
+        "height": 100,
+        "x": 10,
+        "y": 10,
+        "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 0, "b": 0, "a": 1 } }],
+        "layoutMode": "NONE",
+        "primaryAxisSizingMode": "FIXED",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN"
+      },
+      {
+        "type": "ELLIPSE",
+        "name": "Ellipse1",
+        "width": 50,
+        "height": 50,
+        "x": 120,
+        "y": 10,
+        "fills": [{ "type": "SOLID", "color": { "r": 0, "g": 1, "b": 0, "a": 1 } }]
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Rectangle1",
+        "width": 100,
+        "height": 100,
+        "x": 10,
+        "y": 120,
+        "fills": [{ "type": "SOLID", "color": { "r": 0, "g": 0, "b": 1, "a": 1 } }]
+      },
+      {
+        "type": "TEXT",
+        "name": "Text1",
+        "width": 200,
+        "height": 30,
+        "x": 120,
+        "y": 120,
+        "fills": [{ "type": "SOLID", "color": { "r": 0.5, "g": 0.5, "b": 0.5, "a": 1 } }],
+        "characters": "Hello, world!",
+        "fontName": { "family": "Roboto", "style": "Regular" },
+        "fontSize": 16,
+        "textAutoResize": "HEIGHT"
+      },
+      {
+        "type": "VECTOR",
+        "name": "Vector1",
+        "width": 100,
+        "height": 100,
+        "x": 10,
+        "y": 230,
+        "fills": [{ "type": "SOLID", "color": { "r": 0.5, "g": 0, "b": 0.5, "a": 1 } }],
+        "vectorPaths": [{ "windingRule": "EVENODD", "data": "M 10 10 L 90 10 L 90 90 L 10 90 Z" }],
+        "vectorNetwork": { 
+          "regions": [{ "windingRule": "EVENODD", "loops": [[0, 1, 2, 3]] }], 
+          "vertices": [{ "x": 10, "y": 10 }, { "x": 90, "y": 10 }, { "x": 90, "y": 90 }, { "x": 10, "y": 90 }], 
+          "segments": [{ "start": 0, "end": 1, "tangentStart": null, "tangentEnd": null }, 
+                       { "start": 1, "end": 2, "tangentStart": null, "tangentEnd": null }, 
+                       { "start": 2, "end": 3, "tangentStart": null, "tangentEnd": null }, 
+                       { "start": 3, "end": 0, "tangentStart": null, "tangentEnd": null }]
+        }
+      }
+    ]
+  }
+  
