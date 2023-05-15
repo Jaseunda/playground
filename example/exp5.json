@@ -1,0 +1,90 @@
+{
+  "type": "FRAME",
+  "name": "My Frame",
+  "width": 300,
+  "height": 400,
+  "x": 0,
+  "y": 0,
+  "layoutMode": "VERTICAL",
+  "primaryAxisSizingMode": "FIXED",
+  "itemSpacing": 8,
+  "counterAxisSizingMode": "AUTO",
+  "primaryAxisAlignItems": "MIN",
+  "counterAxisAlignItems": "MIN",
+  "clipsContent": true,
+  "children": [
+    {
+      "type": "ELLIPSE",
+      "name": "Ellipse",
+      "width": 100,
+      "height": 100,
+      "x": 0,
+      "y": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 0.5,
+            "b": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "ELLIPSE",
+      "name": "Ellipse 2",
+      "width": 80,
+      "height": 80,
+      "x": 20,
+      "y": 20,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0.5,
+            "b": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "width": 60,
+      "height": 60,
+      "x": 40,
+      "y": 40,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.5,
+            "g": 0,
+            "b": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "TEXT",
+      "name": "Text",
+      "width": 40,
+      "height": 40,
+      "x": 60,
+      "y": 60,
+      "text": "Hello, world!",
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          }
+        }
+      ]
+    }
+  ]
+}
