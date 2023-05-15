@@ -1,0 +1,76 @@
+{
+  "width": 500,
+  "height": 500,
+  "children": [
+    {
+      "type": "FRAME",
+      "name": "Frame 1",
+      "width": 200,
+      "height": 200,
+      "x": 50,
+      "y": 50
+    },
+    {
+      "type": "RECTANGLE",
+      "name": "Rectangle 1",
+      "width": 100,
+      "height": 100,
+      "x": 100,
+      "y": 100,
+      "fill": {
+        "type": "COLOR",
+        "color": {
+          "r": 255,
+          "g": 0,
+          "b": 0
+        }
+      }
+    },
+    {
+      "type": "TEXT",
+      "name": "Text 1",
+      "text": "Hello, World!",
+      "fontName": "Arial",
+      "fontSize": 20,
+      "x": 200,
+      "y": 200,
+      "fill": {
+        "type": "COLOR",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 255
+        }
+      }
+    },
+    {
+      "type": "FRAME",
+      "name": "Frame 2",
+      "width": 100,
+      "height": 100,
+      "x": 250,
+      "y": 250,
+      "fill": {
+        "type": "IMAGE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tux.svg/1200px-Tux.svg.png"
+      }
+    },
+    {
+      "type": "TEXT",
+      "name": "Text 2",
+      "text": "This is a more complex design!",
+      "fontName": "Arial",
+      "fontSize": 20,
+      "x": 100,
+      "y": 350,
+      "fill": {
+        "type": "COLOR",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0
+        }
+      }
+    }
+  ]
+}
