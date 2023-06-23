@@ -1,0 +1,46 @@
+{
+  "layers": [
+    {
+      "type": "FRAME", // Can be "FRAME", "TEXT", "RECTANGLE", "SVG", "ELLIPSE", "POLYGON", "STAR"
+      "x": 100, 
+      "y": 100, 
+      "width": 200,
+      "height": 200,
+      "cornerRadius": 0,
+      "layoutMode": "NONE", // Can be "NONE", "HORIZONTAL", "VERTICAL"
+      "primaryAxisAlignItems": "MIN", // Can be "MIN", "MAX", "CENTER", "SPACE_BETWEEN"
+      "counterAxisAlignItems": "MIN", // Can be "MIN", "MAX", "CENTER", "BASELINE"
+      "fills": [ // array of fill objects
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.5
+        }
+      ],
+      "fontFamily": "Roboto", // For type "TEXT" only
+      "fontSize": 14, // For type "TEXT" only
+      "characters": "Hello, World!", // For type "TEXT" only
+      "topLeftRadius": 0, // For type "RECTANGLE" only
+      "topRightRadius": 0, // For type "RECTANGLE" only
+      "bottomRightRadius": 0, // For type "RECTANGLE" only
+      "bottomLeftRadius": 0, // For type "RECTANGLE" only
+      "svg": "<svg ...></svg>", // For type "SVG" only
+      "strokes": [ // array of stroke objects
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.5
+        }
+      ],
+      "strokeWeight": 1
+    }
+  ]
+}
