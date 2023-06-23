@@ -1,0 +1,208 @@
+{
+  "layers": [
+    {
+      "type": "FRAME",
+      "width": 1440,
+      "height": 5000,
+      "x": 0,
+      "y": 0,
+      "layoutMode": "VERTICAL",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layers": [
+        {
+          "type": "FRAME",
+          "width": 1200,
+          "height": 500,
+          "x": 120,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisAlignItems": "SPACE_BETWEEN",
+          "counterAxisAlignItems": "CENTER",
+          "layers": [
+            {
+              "type": "TEXT",
+              "width": 200,
+              "height": 100,
+              "x": 0,
+              "y": 0,
+              "fontSize": 32,
+              "characters": "Stripe",
+              "fontFamily": "Roboto"
+            },
+            {
+              "type": "FRAME",
+              "width": 600,
+              "height": 100,
+              "x": 600,
+              "y": 0,
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "SPACE_BETWEEN",
+              "counterAxisAlignItems": "CENTER",
+              "layers": [
+                {
+                  "type": "TEXT",
+                  "width": 100,
+                  "height": 50,
+                  "x": 0,
+                  "y": 0,
+                  "fontSize": 18,
+                  "characters": "Product",
+                  "fontFamily": "Roboto"
+                },
+                {
+                  "type": "TEXT",
+                  "width": 100,
+                  "height": 50,
+                  "x": 100,
+                  "y": 0,
+                  "fontSize": 18,
+                  "characters": "Pricing",
+                  "fontFamily": "Roboto"
+                },
+                {
+                  "type": "TEXT",
+                  "width": 100,
+                  "height": 50,
+                  "x": 200,
+                  "y": 0,
+                  "fontSize": 18,
+                  "characters": "Resources",
+                  "fontFamily": "Roboto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "width": 1200,
+          "height": 800,
+          "x": 120,
+          "y": 500,
+          "layoutMode": "VERTICAL",
+          "primaryAxisAlignItems": "CENTER",
+          "counterAxisAlignItems": "MIN",
+          "layers": [
+            {
+              "type": "TEXT",
+              "width": 1000,
+              "height": 100,
+              "x": 100,
+              "y": 0,
+              "fontSize": 48,
+              "characters": "Welcome to Stripe",
+              "fontFamily": "Roboto"
+            },
+            {
+              "type": "TEXT",
+              "width": 800,
+              "height": 100,
+              "x": 200,
+              "y": 100,
+              "fontSize": 24,
+              "characters": "We bring together everything that’s required to build websites and apps that accept payments and send payouts globally.",
+              "fontFamily": "Roboto"
+            }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "width": 1200,
+          "height": 3000,
+          "x": 120,
+          "y": 1300,
+          "layoutMode": "VERTICAL",
+          "primaryAxisAlignItems": "CENTER",
+          "counterAxisAlignItems": "MIN",
+          "layers": [
+            {
+              "type": "TEXT",
+              "width": 1000,
+              "height": 100,
+              "x": 100,
+              "y": 0,
+              "fontSize": 32,
+              "characters": "Testimonials",
+              "fontFamily": "Roboto"
+            },
+            {
+              "type": "FRAME",
+              "width": 1000,
+              "height": 2500,
+              "x": 100,
+              "y": 100,
+              "layoutMode": "VERTICAL",
+              "primaryAxisAlignItems": "SPACE_BETWEEN",
+              "counterAxisAlignItems": "MIN",
+              "layers": [
+                {
+                  "type": "TEXT",
+                  "width": 800,
+                  "height": 100,
+                  "x": 100,
+                  "y": 0,
+                  "fontSize": 24,
+                  "characters": "Stripe has transformed the way our business operates and made us more efficient.",
+                  "fontFamily": "Roboto"
+                },
+                {
+                  "type": "TEXT",
+                  "width": 800,
+                  "height": 100,
+                  "x": 100,
+                  "y": 500,
+                  "fontSize": 24,
+                  "characters": "With Stripe's help, we've been able to scale our online platform effortlessly.",
+                  "fontFamily": "Roboto"
+                },
+                {
+                  "type": "TEXT",
+                  "width": 800,
+                  "height": 100,
+                  "x": 100,
+                  "y": 1000,
+                  "fontSize": 24,
+                  "characters": "Stripe's simple-to-use API has been a game-changer for our development team.",
+                  "fontFamily": "Roboto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "FRAME",
+          "width": 1200,
+          "height": 500,
+          "x": 120,
+          "y": 4300,
+          "layoutMode": "VERTICAL",
+          "primaryAxisAlignItems": "CENTER",
+          "counterAxisAlignItems": "MIN",
+          "layers": [
+            {
+              "type": "TEXT",
+              "width": 200,
+              "height": 100,
+              "x": 0,
+              "y": 0,
+              "fontSize": 32,
+              "characters": "Footer",
+              "fontFamily": "Roboto"
+            },
+            {
+              "type": "TEXT",
+              "width": 800,
+              "height": 100,
+              "x": 200,
+              "y": 100,
+              "fontSize": 24,
+              "characters": "2023 Stripe, Inc. All rights reserved.",
+              "fontFamily": "Roboto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
