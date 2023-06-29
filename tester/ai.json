@@ -1,0 +1,111 @@
+{
+  "type": "FRAME",
+  "name": "Header",
+  "x": 0,
+  "y": 0,
+  "width": 1440,
+  "height": 100,
+  "visible": true,
+  "layoutMode": "HORIZONTAL",
+  "counterAxisSizingMode": "AUTO",
+  "primaryAxisSizingMode": "AUTO",
+  "horizontalPadding": 0,
+  "verticalPadding": 0,
+  "itemSpacing": 10,
+  "layoutAlign": "MIN",
+  "layoutGrow": 0,
+  "clipsContent": true,
+  "guides": [],
+  "children": [
+    {
+      "type": "TEXT",
+      "name": "Logo",
+      "x": 10,
+      "y": 35,
+      "width": 80,
+      "height": 30,
+      "visible": true,
+      "characters": "MySite",
+      "fontSize": 24,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "CENTER",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 0,
+      "autoRename": false,
+      "textCase": "UPPER",
+      "textDecoration": "NONE",
+      "letterSpacing": 0,
+      "lineHeight": {
+        "value": 1,
+        "unit": "AUTO"
+      }
+    },
+    {
+      "type": "FRAME",
+      "name": "Navigation",
+      "x": 100,
+      "y": 35,
+      "width": 500,
+      "height": 30,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "counterAxisSizingMode": "AUTO",
+      "primaryAxisSizingMode": "AUTO",
+      "horizontalPadding": 0,
+      "verticalPadding": 0,
+      "itemSpacing": 10,
+      "layoutAlign": "MIN",
+      "layoutGrow": 0,
+      "clipsContent": true,
+      "guides": [],
+      "children": [
+        {
+          "type": "TEXT",
+          "name": "NavItem1",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 30,
+          "visible": true,
+          "characters": "Home",
+          "fontSize": 18,
+          "textAlignHorizontal": "LEFT",
+          "textAlignVertical": "CENTER",
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "autoRename": false,
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "letterSpacing": 0,
+          "lineHeight": {
+            "value": 1,
+            "unit": "AUTO"
+          }
+        },
+        {
+          "type": "TEXT",
+          "name": "NavItem2",
+          "x": 90,
+          "y": 0,
+          "width": 80,
+          "height": 30,
+          "visible": true,
+          "characters": "About",
+          "fontSize": 18,
+          "textAlignHorizontal": "LEFT",
+          "textAlignVertical": "CENTER",
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "autoRename": false,
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "letterSpacing": 0,
+          "lineHeight": {
+            "value": 1,
+            "unit": "AUTO"
+          }
+        }
+      ]
+    }
+  ]
+}
