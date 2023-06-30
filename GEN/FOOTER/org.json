@@ -2,8 +2,8 @@
     "layers": [
         {
             "type": "FRAME",
-            "width": 3440,
-            "height": 1289,
+            "width": 1024,
+            "height": 331,
             "x": 0,
             "y": 0
         },
@@ -11,7 +11,7 @@
             "type": "RECTANGLE",
             "x": 0,
             "y": 0,
-            "width": 3440,
+            "width": 1024,
             "height": 326,
             "fills": [
                 {
@@ -31,7 +31,7 @@
         },
         {
             "type": "RECTANGLE",
-            "x": 1240,
+            "x": 32,
             "y": 80,
             "width": 141,
             "height": 36,
@@ -51,7 +51,7 @@
         },
         {
             "type": "RECTANGLE",
-            "x": 1250,
+            "x": 42,
             "y": 265,
             "width": 940,
             "height": 53,
@@ -80,7 +80,7 @@
             "bottomLeftRadius": 0
         },
         {
-            "x": 1600,
+            "x": 392,
             "y": 80,
             "width": 73,
             "height": 21,
@@ -106,7 +106,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1600,
+            "x": 392,
             "y": 117,
             "width": 86,
             "height": 21,
@@ -132,7 +132,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1600,
+            "x": 392,
             "y": 146,
             "width": 45,
             "height": 21,
@@ -158,7 +158,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1600,
+            "x": 392,
             "y": 175,
             "width": 39,
             "height": 21,
@@ -184,7 +184,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1811,
+            "x": 603,
             "y": 80,
             "width": 86,
             "height": 21,
@@ -210,7 +210,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1811,
+            "x": 603,
             "y": 117,
             "width": 173,
             "height": 21,
@@ -236,7 +236,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1811,
+            "x": 603,
             "y": 146,
             "width": 173,
             "height": 21,
@@ -262,7 +262,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1811,
+            "x": 603,
             "y": 175,
             "width": 173,
             "height": 21,
@@ -288,7 +288,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1811,
+            "x": 603,
             "y": 204,
             "width": 113,
             "height": 21,
@@ -314,7 +314,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 2021,
+            "x": 813,
             "y": 80,
             "width": 50,
             "height": 21,
@@ -340,7 +340,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 2021,
+            "x": 813,
             "y": 117,
             "width": 129,
             "height": 21,
@@ -366,7 +366,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 2021,
+            "x": 813,
             "y": 146,
             "width": 92,
             "height": 21,
@@ -392,7 +392,7 @@
             "textAlignHorizontal": "LEFT"
         },
         {
-            "x": 1607,
+            "x": 399,
             "y": 281,
             "width": 227,
             "height": 21,
