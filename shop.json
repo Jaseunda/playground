@@ -8,7 +8,14 @@
       "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa",
       "localizedDescription": "A powerful emulator for iOS devices.",
       "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png",
-      "tintColor": "#FF9500"
+      "tintColor": "#FF9500",
+      "permissions": [
+        "com.apple.security.network.client",
+        "com.apple.security.files.user-selected.read-write"
+      ],
+      "size": "25MB",
+      "releaseDate": "2024-07-30",
+      "minimumOSVersion": "14.0"
     }
   ]
 }
