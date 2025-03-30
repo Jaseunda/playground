@@ -1,4 +1,10 @@
 {
+  "source": {
+    "name": "Pomelo Source",
+    "identifier": "com.pomeloemu.source",
+    "website": "https://pomelo-emu.github.io",
+    "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png"
+  },
   "apps": [
     {
       "name": "Pomelo",
@@ -17,5 +23,6 @@
       "releaseDate": "2024-07-30",
       "minimumOSVersion": "14.0"
     }
-  ]
+  ],
+  "news": []
 }
