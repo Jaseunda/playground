@@ -1,24 +1,24 @@
 {
-    "name": "Unofficial Pomelo & MeloNX Source",
-    "subtitle": "Emulators for iOS via AltStore",
-    "description": "Download Pomelo and MeloNX directly from AltStore.",
-    "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png",
-    "headerURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/header.png",
+    "name": "Unofficial Emulator Source",
+    "subtitle": "A collection of alternative emulators.",
+    "description": "This source provides access to unofficial emulator apps for iOS.",
+    "iconURL": "https://example.com/emulator_source_icon.png",
+    "headerURL": "https://example.com/emulator_source_header.png",
     "website": "https://gitlab.com/pomelo-emu/Pomelo",
-    "tintColor": "#FF4500",
+    "tintColor": "#FF5733",
     "featuredApps": [
-        "com.stossy11.Pomelo",
+        "com.pomeloemu.app",
         "xyz.melonx.ios"
     ],
     "apps": [
         {
             "name": "Pomelo Emulator",
-            "bundleIdentifier": "com.stossy11.Pomelo",
-            "developerName": "Pomelo-Emu Team",
-            "subtitle": "Nintendo 3DS Emulator for iOS",
-            "localizedDescription": "Pomelo is an open-source Nintendo 3DS emulator for iOS, supporting various games with high performance.",
-            "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png",
-            "tintColor": "#FF4500",
+            "bundleIdentifier": "com.pomeloemu.app",
+            "developerName": "Pomelo Team",
+            "subtitle": "Nintendo Switch Emulator for iOS",
+            "localizedDescription": "Pomelo is an experimental Nintendo Switch emulator for iOS devices, allowing you to play select games.",
+            "iconURL": "https://example.com/pomelo_icon.png",
+            "tintColor": "#FF9900",
             "screenshots": [
                 "https://example.com/pomelo_screenshot1.png",
                 "https://example.com/pomelo_screenshot2.png"
@@ -26,10 +26,10 @@
             "versions": [
                 {
                     "version": "2.7.1",
-                    "date": "2024-07-30T12:00:00-08:00",
-                    "size": 50000000,
+                    "date": "2024-03-31T10:00:00-08:00",
+                    "size": 25000000,
                     "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7.1/Pomelo.ipa",
-                    "localizedDescription": "Latest update with performance improvements and bug fixes.",
+                    "localizedDescription": "Latest update with performance improvements.",
                     "minOSVersion": "14.0"
                 }
             ]
@@ -38,10 +38,10 @@
             "name": "MeloNX Emulator",
             "bundleIdentifier": "xyz.melonx.ios",
             "developerName": "MeloNX Team",
-            "subtitle": "Nintendo Switch Emulator for iOS",
-            "localizedDescription": "MeloNX is an experimental Nintendo Switch emulator for iOS, offering an early preview of Switch emulation.",
+            "subtitle": "Nintendo Switch Emulator",
+            "localizedDescription": "MeloNX is another experimental Nintendo Switch emulator for iOS, focusing on accuracy and performance.",
             "iconURL": "https://example.com/melonx_icon.png",
-            "tintColor": "#00AAFF",
+            "tintColor": "#33CC66",
             "screenshots": [
                 "https://example.com/melonx_screenshot1.png",
                 "https://example.com/melonx_screenshot2.png"
@@ -49,10 +49,10 @@
             "versions": [
                 {
                     "version": "1.7.0",
-                    "date": "2024-07-30T12:00:00-08:00",
-                    "size": 60000000,
+                    "date": "2024-03-31T12:00:00-08:00",
+                    "size": 22000000,
                     "downloadURL": "https://git.743378673.xyz/MeloNX/MeloNX/releases/download/1.7.0/MeloNX.ipa",
-                    "localizedDescription": "Initial release of MeloNX for iOS.",
+                    "localizedDescription": "New update with better game compatibility.",
                     "minOSVersion": "14.0"
                 }
             ]
