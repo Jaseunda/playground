@@ -7,12 +7,12 @@
     "website": "https://gitlab.com/pomelo-emu/Pomelo",
     "tintColor": "#FF5733",
     "featuredApps": [
-        "com.stossy11.Pomelo"
+        "com.pomeloemu.app"
     ],
     "apps": [
         {
             "name": "Pomelo Emulator",
-            "bundleIdentifier": "com.stossy11.Pomelo",
+            "bundleIdentifier": "com.pomeloemu.app",
             "developerName": "Pomelo Team",
             "subtitle": "Nintendo Switch Emulator for iOS",
             "localizedDescription": "Pomelo is a Nintendo Switch emulator for iOS devices. Play your favorite Switch games directly on your iPhone or iPad.",
@@ -24,10 +24,10 @@
             ],
             "versions": [
                 {
-                    "version": "2.7",
+                    "version": "2.5.2",
                     "date": "2024-07-30T09:00:00-08:00",
                     "size": 25000000,
-                    "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa",
+                    "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.5.2/Pomelo.ipa",
                     "localizedDescription": "Improved performance, bug fixes, and compatibility updates.",
                     "minOSVersion": "14.0"
                 }
@@ -47,14 +47,14 @@
     ],
     "news": [
         {
-            "title": "Pomelo 2.7 Released!",
-            "identifier": "pomelo_2.7_release",
+            "title": "Pomelo 2.5.2 Released!",
+            "identifier": "pomelo_2.5.2_release",
             "caption": "New update brings better performance and stability improvements.",
             "date": "2024-07-30",
             "tintColor": "#FF5733",
             "imageURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/assets/news.png",
             "notify": true,
-            "url": "https://gitlab.com/pomelo-emu/Pomelo/-/releases/2.7"
+            "url": "https://gitlab.com/pomelo-emu/Pomelo/-/releases/2.5.2"
         }
     ]
 }
