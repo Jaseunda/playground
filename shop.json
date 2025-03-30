@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "Pomelo",
+      "bundleIdentifier": "com.pomeloemu.app",
+      "developerName": "Pomelo Emu Team",
+      "version": "2.7",
+      "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa",
+      "localizedDescription": "A powerful emulator for iOS devices.",
+      "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png",
+      "tintColor": "#FF9500"
+    }
+  ]
+}
