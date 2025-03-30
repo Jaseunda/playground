@@ -24,11 +24,11 @@
             ],
             "versions": [
                 {
-                    "version": "2.5.2",
-                    "date": "2024-07-30T09:00:00-08:00",
-                    "size": 25000000,
-                    "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.5.2/Pomelo.ipa",
-                    "localizedDescription": "Improved performance, bug fixes, and compatibility updates.",
+                    "version": "2.7.1",
+                    "date": "2024-08-01T09:00:00-08:00",
+                    "size": 26000000,
+                    "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7.1/Pomelo.ipa",
+                    "localizedDescription": "Latest update with improved performance, bug fixes, and stability enhancements.",
                     "minOSVersion": "14.0"
                 }
             ],
@@ -47,14 +47,14 @@
     ],
     "news": [
         {
-            "title": "Pomelo 2.5.2 Released!",
-            "identifier": "pomelo_2.5.2_release",
+            "title": "Pomelo 2.7.1 Released!",
+            "identifier": "pomelo_2.7.1_release",
             "caption": "New update brings better performance and stability improvements.",
-            "date": "2024-07-30",
+            "date": "2024-08-01",
             "tintColor": "#FF5733",
             "imageURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/assets/news.png",
             "notify": true,
-            "url": "https://gitlab.com/pomelo-emu/Pomelo/-/releases/2.5.2"
+            "url": "https://gitlab.com/pomelo-emu/Pomelo/-/releases/2.7.1"
         }
     ]
 }
