@@ -1,27 +1,48 @@
 {
-  "source": {
-    "name": "Pomelo Source",
-    "identifier": "com.pomeloemu.source",
-    "website": "https://pomelo-emu.github.io",
-    "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png"
-  },
+  "name": "Pomelo Source",
+  "subtitle": "The best emulator for iOS.",
+  "description": "Download and install Pomelo Emulator directly from AltStore.",
+  "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/header.png",
+  "website": "https://pomelo-emu.github.io",
+  "tintColor": "#FF9500",
+  "featuredApps": [
+    "com.pomeloemu.app"
+  ],
   "apps": [
     {
-      "name": "Pomelo",
+      "name": "Pomelo Emulator",
       "bundleIdentifier": "com.pomeloemu.app",
       "developerName": "Pomelo Emu Team",
-      "version": "2.7",
-      "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa",
-      "localizedDescription": "A powerful emulator for iOS devices.",
+      "subtitle": "A powerful emulator for iOS.",
+      "localizedDescription": "Pomelo is a cutting-edge emulator that lets you run console games on your iPhone.",
       "iconURL": "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/icon.png",
       "tintColor": "#FF9500",
-      "permissions": [
-        "com.apple.security.network.client",
-        "com.apple.security.files.user-selected.read-write"
+      "screenshots": [
+        "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/screenshot1.png",
+        "https://raw.githubusercontent.com/Pomelo-Emu/pomelo-emu.github.io/main/screenshot2.png"
       ],
-      "size": "25MB",
-      "releaseDate": "2024-07-30",
-      "minimumOSVersion": "14.0"
+      "versions": [
+        {
+          "version": "2.7",
+          "date": "2024-07-30T09:00:00-08:00",
+          "size": 25000000,
+          "downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa",
+          "localizedDescription": "Improved performance and bug fixes.",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.network.client",
+          "com.apple.security.files.user-selected.read-write"
+        ],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Pomelo saves game states to your Photo Library.",
+          "NSCameraUsageDescription": "Camera access may be used for AR features.",
+          "NSMicrophoneUsageDescription": "Microphone access may be needed for voice input in some games."
+        }
+      }
     }
   ],
   "news": []
